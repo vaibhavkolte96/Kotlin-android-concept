@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Kotlin concept</string>
+    <string name="greeting_message">Welcome to my project</string>
+    <string name="singup">SingUp</string>
 </resources>
