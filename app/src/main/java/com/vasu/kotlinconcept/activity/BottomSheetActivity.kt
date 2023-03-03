@@ -1,4 +1,4 @@
-package com.vasu.kotlinconcept
+package com.vasu.kotlinconcept.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.vasu.kotlinconcept.R
 
 class BottomSheetActivity : AppCompatActivity() {
     private val TAG = "BottomSheetActivity"

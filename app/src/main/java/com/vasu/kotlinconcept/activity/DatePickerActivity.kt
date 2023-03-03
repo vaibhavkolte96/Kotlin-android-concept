@@ -1,4 +1,4 @@
-package com.vasu.kotlinconcept
+package com.vasu.kotlinconcept.activity
 
 import android.annotation.SuppressLint
 import android.app.DatePickerDialog
@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import com.vasu.kotlinconcept.BasicLogic
+import com.vasu.kotlinconcept.R
 import java.util.Calendar
 
 class DatePickerActivity : AppCompatActivity() {
@@ -45,7 +47,11 @@ class DatePickerActivity : AppCompatActivity() {
             DatePickerDialog(
                 this, { _, year, month, dayOfMonth ->
                     run {
-                        txtDateView.text = "Date : ${BasicLogic.format(dayOfMonth)}/${BasicLogic.format(month + 1)}/$year"
+                        txtDateView.text = "Date : ${BasicLogic.format(dayOfMonth)}/${
+                            BasicLogic.format(
+                                month + 1
+                            )
+                        }/$year"
                     }
                 }, year, month, day
             ).show()

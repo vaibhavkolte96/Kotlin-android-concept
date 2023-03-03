@@ -1,4 +1,4 @@
-package com.vasu.kotlinconcept
+package com.vasu.kotlinconcept.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

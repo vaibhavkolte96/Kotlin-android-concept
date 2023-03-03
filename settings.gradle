@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Kotlin concept"
 include ':app'
+include ':API_Calling'
+include ':Resources'
+include ':ConstantValue'

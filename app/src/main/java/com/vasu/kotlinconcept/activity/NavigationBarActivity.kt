@@ -1,10 +1,14 @@
-package com.vasu.kotlinconcept
+package com.vasu.kotlinconcept.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.vasu.kotlinconcept.ChatFragment
+import com.vasu.kotlinconcept.HomeFragment
+import com.vasu.kotlinconcept.R
+import com.vasu.kotlinconcept.SettingFragment
 
 class NavigationBarActivity : AppCompatActivity() {
     private lateinit var bottomNav: BottomNavigationView

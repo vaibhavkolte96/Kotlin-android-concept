@@ -1,10 +1,11 @@
-package com.vasu.kotlinconcept
+package com.vasu.kotlinconcept.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.vasu.kotlinconcept.R
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

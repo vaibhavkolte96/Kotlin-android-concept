@@ -1,9 +1,11 @@
-package com.vasu.kotlinconcept
+package com.vasu.kotlinconcept.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.vasu.api_calling.LoginActivity
+import com.vasu.kotlinconcept.*
 import com.vasu.kotlinconcept.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -12,11 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        Log.e(Companion.TAG, "onCreate: " + Companion.TAG)
+        Log.e(TAG, "onCreate: $TAG")
         val basicLogic = BasicLogic()
 
         Log.e(TAG, "onCreate: Reverse Name = ${basicLogic.reverseString("Vaibhav")}")
-        Log.e(TAG, "onCreate: Factorial = ${basicLogic.findFactorial(5)}");
+        Log.e(TAG, "onCreate: Factorial = ${basicLogic.findFactorial(5)}")
         Log.e(TAG, "onCreate: Palindrome Number = ${basicLogic.isPalindromeNumber(121)}")
         Log.e(TAG, "onCreate: Palindrome String  = ${basicLogic.isPalindromeString("nitin")}")
         Log.e(TAG, "onCreate: Remove vowel = ${basicLogic.removeVowel("VaIbhav")}")
@@ -100,6 +102,41 @@ class MainActivity : AppCompatActivity() {
                 Intent(
                     this,
                     ShareSomethingActivity::class.java
+                )
+            )
+        }
+
+        binding.btnMDCSlider.setOnClickListener {
+            startActivity(
+                Intent(
+                    this,
+                    MDCSliderActivity::class.java
+                )
+            )
+        }
+
+        binding.btnPieChart.setOnClickListener {
+            startActivity(
+                Intent(
+                    this,
+                    PieChartActivity::class.java
+                )
+            )
+        }
+
+        binding.btnSwipeRefresh.setOnClickListener {
+            startActivity(
+                Intent(
+                    this,
+                    SwipeRefreshActivity::class.java
+                )
+            )
+        }
+        binding.btnModule.setOnClickListener {
+            startActivity(
+                Intent(
+                    this,
+                    LoginActivity::class.java
                 )
             )
         }

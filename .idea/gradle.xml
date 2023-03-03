@@ -10,6 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/API_Calling" />
+            <option value="$PROJECT_DIR$/ConstantValue" />
+            <option value="$PROJECT_DIR$/Resources" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

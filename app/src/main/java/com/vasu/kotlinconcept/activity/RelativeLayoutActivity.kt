@@ -1,10 +1,9 @@
-package com.vasu.kotlinconcept
+package com.vasu.kotlinconcept.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.vasu.kotlinconcept.databinding.ActivityRelativeLayoutBinding
-import com.vasu.kotlinconcept.databinding.ActivityTimePickerBinding
 
 class RelativeLayoutActivity : AppCompatActivity() {
     lateinit var binding: ActivityRelativeLayoutBinding

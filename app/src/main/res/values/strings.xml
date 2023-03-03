@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Kotlin concept</string>
-    <string name="greeting_message">Welcome to my project</string>
     <string name="singup">SingUp</string>
     <string name="enter_password">Enter password</string>
     <string name="enter_email">Enter email</string>
@@ -11,7 +10,6 @@
     <string name="lifecycle_check_alert">If you are checking this in laptop observe how to behave log message in android lifecycle after opening bottom the sheet, \n and also check how the lifecycle behave if you are trying to send some info to other app (like sharing video to your friends).</string>
     <string name="view_bottom_sheet">view bottom sheet</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">Login</string>
     <string name="date_of_birth">Date of birth</string>
 
